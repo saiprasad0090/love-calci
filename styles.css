@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+.heading,label{
+    color: red;
+    font-family: "montserrat-black";
+    line-height: 1.5;
+}
+form{
+    color: seashell;
+    padding-right: 20px;
+}
+.button:hover{
+    color:red;
+    transform: scale(1.2);
+}
+p{
+    color: seashell;
+}
+.container1{
+    padding: 0px 40% 20px;
+    text-align: center;
+}
+#butt:hover{
+    color: green;
+    transform: scale(1.2);
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width">
+  <title>Love calculator</title>
+  
+  <!--bootstrap links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--fonts awesome-->
+  <script src="https://kit.fontawesome.com/9a87804642.js" crossorigin="anonymous"></script>
+
+  <!--google fonte-->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <!--css link-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--javascript link-->
+  <script src="index.js"></script>
+
+</head>
+
+<body>
+    <section id="title">
+  
+    <div class="row">
+      <div class="col-lg=12 col-md-12 col-sm-12">
+    <h1 class="heading">Calculate Your Love Here</h1>
+    <img src="loveimage.jpg">
+    </div>
+    </div>
+    </section>
+
+    <section id="details">
+        <form action="/action_page.php" method="post">
+ 
+            <label for="yname">Your Name:</label>
+            <input type="text" id="name1" placeholder="Enter your name.." name="yname"  required><br>
+            <label for="cname">Your's Crush Name:</label>
+            <input type="text" id="name2" placeholder="Enter your's crush name.." name="cname">
+          
+        </form>
+        <br>
+        <button type="submit" class="btn btn-light" id="butt" onclick="love()" >Calculate</div>
+    </section>
+    <p id="demo">Love % is</p>
+
+ 
+</body>
